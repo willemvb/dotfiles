@@ -11,7 +11,7 @@ Clone this repo and install all the things
 
 ```bash
 cd ~
-git clone git@github.com:willemvb/dotfiles.git .dotfiles
+git clone https://github.com/willemvb/dotfiles.git .dotfiles
 cd .dotfiles
 source ./install.sh
 ```
