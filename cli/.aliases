@@ -1,0 +1,59 @@
+# Composer
+alias c="composer"
+alias cu="composer update"
+alias cr="composer require"
+alias ci="composer install"
+alias cda="composer dump-autoload -o"
+
+# Finder
+alias s="cd ~/Sites"
+alias rip="rm -rf $1";
+alias o="open ."
+alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
+alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
+
+# PHP artisan
+alias a="php artisan"
+alias mfs="php artisan migrate:fresh --seed"
+
+# macOS
+alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+# Empty the Trash on all mounted volumes and the main HDD
+# Also, clear Apple’s System Logs to improve shell startup speed
+alias emptytrash="sudo rm -rfv /Volumes/*/.Trashes; sudo rm -rfv ~/.Trash; sudo rm -rfv /private/var/log/asl/*.asl"
+
+# Enable aliases to be sudo’ed
+alias sudo="sudo "
+
+# Git
+alias nah='git reset --hard;git clean -df'
+alias master="git checkout master"
+alias mastermerge="git checkout master; git pull; git merge develop"
+alias develop="git checkout develop"
+alias github="git open"
+alias pull="git pull"
+alias push="git push"
+alias add="git add"
+alias commit="git commit"
+alias status="git status"
+alias checkout="git checkout"
+alias clone="git clone"
+alias merge="git merge"
+alias reset="git reset"
+alias fetch="git fetch"
+
+# Envoy
+alias deploy="envoy run deploy"
+alias deploy-code="envoy run deploy-code"
+
+# Visual Code
+alias c="code ."
+
+# Browser
+alias b="openBrowser"
+
+# Scrape url
+alias scrape="scrapeUrl"
+
+# Yarn
+alias y="yarn"

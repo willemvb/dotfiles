@@ -1,0 +1,18 @@
+[user]
+	email = willem@spatie.be
+	name = Willem Van Bockstal
+[core]
+	excludesfile = /Users/willem/.global-gitignore
+	editor = nano
+[push]
+	default = matching
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
+[credential]
+	helper = osxkeychain
+[pull]
+	rebase = true
+[branch "develop"]
+	mergeoptions = --no-ff
