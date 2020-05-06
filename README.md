@@ -22,6 +22,8 @@ source ./install.sh
 source ./macos.sh
 ```
 
+Additionaly, instal the Ayu Light theme in VS Code.
+
 ### Thanks to…
 
 - [Matthias Bynens](https://github.com/mathiasbynens/dotfiles)
