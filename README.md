@@ -13,7 +13,7 @@ Clone this repo and install all the things.
 
 ```bash
 cd ~
-git clone https://github.com/willemvb/dotfiles.git .dotfiles
+git clone git@github.com:willemvb/dotfiles.git .dotfiles
 cd .dotfiles
 source ./install.sh
 ```
@@ -24,7 +24,10 @@ source ./install.sh
 source ./macos.sh
 ```
 
-Additionaly, instal the Ayu Light theme in VS Code.
+Additionaly, search and install in the VS Code Command Palette
+
+- the color theme `Ayu` and use `Ayu Light`
+- the Shell command `code`
 
 ### Thanks to…
 
