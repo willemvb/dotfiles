@@ -1,8 +1,9 @@
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
 
-# Set Spaceship ZSH as a prompt
+# ZSH settings
 ZSH_THEME="spaceship"
+ZSH_DISABLE_COMPFIX=true
 
 # Enable autosuggestions (installed via Brew)
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
