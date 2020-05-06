@@ -452,12 +452,10 @@ for app in "Activity Monitor" \
 	"Finder" \
 	"Google Chrome Canary" \
 	"Google Chrome" \
-	"iTerm2" \
 	"Mail" \
 	"Photos" \
 	"Safari" \
 	"SystemUIServer" \
-	"Terminal" \
 	"TextEdit"; do
 	killall "${app}" &> /dev/null
 done
