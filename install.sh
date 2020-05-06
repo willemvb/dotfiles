@@ -58,7 +58,7 @@ brew install php
 brew services start php
 
 echo 'Install ImageMagick'
-brew install imagemagick
+brew install pkg-config imagemagick
 
 echo 'Install Node & Yarn'
 brew install node
