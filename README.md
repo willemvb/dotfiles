@@ -1,13 +1,15 @@
 # Willem's dotfiles
 
 ### Installation
-Install Xcode first so we can work with git like normal people
+
+- Install your SSH keys
+- Install Xcode next
 
 ```bash
 xcode-select --install
 ```
 
-Clone this repo and install all the things
+Clone this repo and install all the things.
 
 ```bash
 cd ~
