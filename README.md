@@ -4,7 +4,7 @@
 Install…
 - 1Password
 - SSH RSA keys
-- Install Vscode
+- Vscode
 - iTerm2
 - Xcode CLI Tools
 
