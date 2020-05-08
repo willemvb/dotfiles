@@ -2,7 +2,7 @@
 	email = willem@spatie.be
 	name = Willem Van Bockstal
 [core]
-	excludesfile = /Users/willem/.global-gitignore
+	excludesfile = ~/.dotfiles/git/.global-gitignore
 	editor = nano
 [push]
 	default = matching

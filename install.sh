@@ -30,15 +30,8 @@ defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
 echo 'Install z'
 chmod +x ./cli/z.sh
 
-###############################################################################
-# Git config                                                                  #
-###############################################################################
-
-echo 'Install git preferences'
-# Add global gitignore
-ln -s -f $PWD/git/.global-gitignore $HOME/.global-gitignore
-
 # Add gitconfig
+echo 'Install git config'
 ln -s -f $PWD/git/.gitconfig $HOME/.gitconfig
 
 ###############################################################################
