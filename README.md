@@ -1,15 +1,20 @@
 # Willem's dotfiles
 
-### Installation
-
-- Install your SSH keys
-- Install Xcode next
+### Pre-requisites
+Install…
+- 1Password
+- SSH RSA keys
+- Install Vscode
+- iTerm2
+- Xcode CLI Tools
 
 ```bash
 xcode-select --install
 ```
 
-Clone this repo and install all the things.
+### Installation
+
+Clone this repo and install all the things!
 
 ```bash
 cd ~
@@ -24,10 +29,13 @@ source ./install.sh
 source ./macos.sh
 ```
 
-Additionaly, search and install in the VS Code Command Palette
+Most application settings are synced via iCloud. Exceptions:
 
-- the color theme `Ayu` and use `Ayu Light`
-- the Shell command `code`
+- VS Code: https://marketplace.visualstudio.com/items/Shan.code-settings-sync
+- iTerm2 via these dotfiles
+
+Additionaly, search and install in the VS Code Command Palette the shell command `code`.
+
 
 ### Thanks to…
 

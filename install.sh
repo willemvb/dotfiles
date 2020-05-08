@@ -20,9 +20,11 @@ ln -s -f $PWD/cli/.zshrc $HOME/.zshrc
 git clone git@github.com:denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
 ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
 
-# Symlink iTerm2 settings
-echo 'Install iTerm prefs'
-ln -s -f $PWD/cli/com.googlecode.iterm2.plist $HOME/Library/Preferences/com.googlecode.iterm2.plist
+# Sync iTerm2 preferences
+# Specify the preferences directory
+defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/.dotfiles/misc/iTerm2"
+# Tell iTerm2 to use the custom preferences in the directory
+defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
 
 # Activate z
 echo 'Install z'
@@ -70,6 +72,9 @@ brew services start mysql
 
 echo 'Install zsh-autosuggestions'
 brew install zsh-autosuggestions
+
+echo 'Install Quicklook plugins'
+brew cask install qlstephen
 
 ###############################################################################
 # PHP extensions via PECL                                                     #
