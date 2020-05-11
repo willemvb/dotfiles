@@ -11,7 +11,7 @@ alias rip="rm -rf $1";
 alias o="open ."
 alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
 alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
-alias touchbar ="sudo pkill TouchBarServer; sudo killall ControlStrip'
+alias touchbar="sudo pkill TouchBarServer; sudo killall ControlStrip"
 
 # PHP artisan
 alias a="php artisan"
