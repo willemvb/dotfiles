@@ -55,6 +55,9 @@ brew services start php
 echo 'Install ImageMagick'
 brew install pkg-config imagemagick
 
+echo 'Install Redis'
+brew install redis
+
 echo 'Install Node & Yarn'
 brew install node
 brew install yarn
@@ -78,9 +81,6 @@ pecl install imagick
 
 echo 'Install Memcached'
 pecl install memcached
-
-echo 'Install Redis'
-pecl install redis
 
 ###############################################################################
 # Miscellaneous                                                               #

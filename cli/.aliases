@@ -31,7 +31,6 @@ alias nah='git reset --hard;git clean -df'
 alias master="git checkout master"
 alias mastermerge="git checkout master; git pull; git merge develop"
 alias develop="git checkout develop"
-alias github="git open"
 alias pull="git pull"
 alias push="git push"
 alias add="git add"
