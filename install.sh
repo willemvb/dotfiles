@@ -82,6 +82,9 @@ pecl install imagick
 echo 'Install Memcached'
 pecl install memcached
 
+echo 'Install Redis'
+pecl install redis
+
 ###############################################################################
 # Miscellaneous                                                               #
 ###############################################################################
